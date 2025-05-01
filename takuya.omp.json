@@ -5,14 +5,6 @@
     "auto": false,
     "source": "cdn"
   },
-  {
-  "type": "python",
-  "style": "powerline",
-  "powerline_symbol": "",
-  "foreground": "#100e23",
-  "background": "#906cff",
-  "template": "  {{ .Full }} "
-  },
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
@@ -68,6 +60,14 @@
         }
       ],
       "type": "prompt"
+    },
+    {
+  "type": "python",
+  "style": "powerline",
+  "powerline_symbol": "",
+  "foreground": "#100e23",
+  "background": "#906cff",
+  "template": "  {{ .Full }} "
     },
     {
       "alignment": "right",
