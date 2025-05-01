@@ -81,7 +81,7 @@
         {
           "background": "#306998",
           "foreground": "#FFE873",
-          "leading_diamond": "\ue0b6",
+          "trailing_diamond": "\ue0b6",
           "style": "diamond",
           "template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}",
           "trailing_diamond": "\ue0b4 ",
